@@ -12,7 +12,7 @@ namespace OpencartStoreFront_WebTesting.Library
         public T SeleniumDriver { get; internal set; }
         public OpencartSF_HomePage OpencartSF_HomePage { get; set; }
 
-        public OpencartSF_Website(int pageLoadInSecs = 3, int implicitWaitInSecs = 3)
+        public OpencartSF_Website(int pageLoadInSecs = 5, int implicitWaitInSecs = 5)
         {
             SeleniumDriver = new SeleniumDriverConfig<T>(pageLoadInSecs, implicitWaitInSecs).Driver;
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\olawr\\OneDrive\\Engineering73\\AdvancedTesting\\OpencartStoreFront_WebTesting\\OpencartStoreFront_WebTesting\\OpencartStoreFront_WebTesting.csproj": {}
+    "C:\\Users\\olawr\\OneDrive\\Engineering73\\AdvancedTesting\\Opencart_WebTesting\\Opencart_WebTesting\\OpencartStoreFront_WebTesting\\OpencartStoreFront_WebTesting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\olawr\\OneDrive\\Engineering73\\AdvancedTesting\\OpencartStoreFront_WebTesting\\OpencartStoreFront_WebTesting\\OpencartStoreFront_WebTesting.csproj": {
+    "C:\\Users\\olawr\\OneDrive\\Engineering73\\AdvancedTesting\\Opencart_WebTesting\\Opencart_WebTesting\\OpencartStoreFront_WebTesting\\OpencartStoreFront_WebTesting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\olawr\\OneDrive\\Engineering73\\AdvancedTesting\\OpencartStoreFront_WebTesting\\OpencartStoreFront_WebTesting\\OpencartStoreFront_WebTesting.csproj",
+        "projectUniqueName": "C:\\Users\\olawr\\OneDrive\\Engineering73\\AdvancedTesting\\Opencart_WebTesting\\Opencart_WebTesting\\OpencartStoreFront_WebTesting\\OpencartStoreFront_WebTesting.csproj",
         "projectName": "OpencartStoreFront_WebTesting",
-        "projectPath": "C:\\Users\\olawr\\OneDrive\\Engineering73\\AdvancedTesting\\OpencartStoreFront_WebTesting\\OpencartStoreFront_WebTesting\\OpencartStoreFront_WebTesting.csproj",
+        "projectPath": "C:\\Users\\olawr\\OneDrive\\Engineering73\\AdvancedTesting\\Opencart_WebTesting\\Opencart_WebTesting\\OpencartStoreFront_WebTesting\\OpencartStoreFront_WebTesting.csproj",
         "packagesPath": "C:\\Users\\olawr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\olawr\\OneDrive\\Engineering73\\AdvancedTesting\\OpencartStoreFront_WebTesting\\OpencartStoreFront_WebTesting\\obj\\",
+        "outputPath": "C:\\Users\\olawr\\OneDrive\\Engineering73\\AdvancedTesting\\Opencart_WebTesting\\Opencart_WebTesting\\OpencartStoreFront_WebTesting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\olawr\\AppData\\Roaming\\NuGet\\NuGet.Config",

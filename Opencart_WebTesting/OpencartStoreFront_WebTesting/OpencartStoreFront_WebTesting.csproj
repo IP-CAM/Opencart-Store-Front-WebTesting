@@ -18,8 +18,6 @@
 
   <ItemGroup>
     <Folder Include="Library\Tests\" />
-    <Folder Include="Library\SpecFlow\Features\" />
-    <Folder Include="Library\SpecFlow\Steps\" />
   </ItemGroup>
 
 </Project>
