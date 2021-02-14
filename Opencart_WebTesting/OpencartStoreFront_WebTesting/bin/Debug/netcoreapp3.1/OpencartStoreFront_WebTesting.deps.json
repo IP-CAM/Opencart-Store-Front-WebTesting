@@ -11,6 +11,7 @@
           "Microsoft.NET.Test.Sdk": "16.5.0",
           "NUnit": "3.12.0",
           "NUnit3TestAdapter": "3.16.1",
+          "Pickles": "2.21.0",
           "Selenium.WebDriver": "3.141.0",
           "Selenium.WebDriver.ChromeDriver": "88.0.4324.9600",
           "SpecFlow": "3.6.23",
@@ -433,6 +434,7 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "Pickles/2.21.0": {},
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
       "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
       "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
@@ -1368,6 +1370,13 @@
       "sha512": "sha512-wKuxi7G9Gs2I9gnckwtMVzbPIy7vkNj+FafrmQPaYCUguT+se5kmzI3XwsVCXEalWk9pSYZW7roBkNu4ogn3DA==",
       "path": "nunit3testadapter/3.16.1",
       "hashPath": "nunit3testadapter.3.16.1.nupkg.sha512"
+    },
+    "Pickles/2.21.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MZ4RhQscS0M6Slbe2GVEe6B9eVcDoX4bLc24a8cfJHwNWMZw0iDQsGiKZSyuCa6shvzwsoFP/ZlI1yvot+J5ug==",
+      "path": "pickles/2.21.0",
+      "hashPath": "pickles.2.21.0.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
       "type": "package",

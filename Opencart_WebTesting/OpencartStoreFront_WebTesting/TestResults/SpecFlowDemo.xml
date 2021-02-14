@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="bda6b6a0-eb62-48eb-baa0-9d2249a35898" name="olawr@DESKTOP-95M4F0P 2021-02-14 19:46:28" runUser="DESKTOP-95M4F0P\olawr" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-02-14T19:46:28.5567004+00:00" queuing="2021-02-14T19:46:28.5567027+00:00" start="2021-02-14T19:46:14.9729806+00:00" finish="2021-02-14T19:48:14.3525418+00:00" />
+  <TestSettings name="default" id="adfa7288-d179-46a8-b137-6b0c1c6f9b7e">
+    <Deployment runDeploymentRoot="olawr_DESKTOP-95M4F0P_2021-02-14_19_46_28" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="c7af5f07-b6a7-4561-bedc-218ac1fa2cc7" testId="902f09c8-3097-bf10-6efb-abe24fa8fa1f" testName="ChangingTheCurrencyOfFeaturedProducts(&quot;EUR&quot;,&quot;€&quot;,null)" computerName="DESKTOP-95M4F0P" duration="00:00:10.7209620" startTime="2021-02-14T19:46:17.0000000+00:00" endTime="2021-02-14T19:46:28.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c7af5f07-b6a7-4561-bedc-218ac1fa2cc7">
+      <Output>
+        <StdOut>Given I am on the homepage&#xD;
+-&gt; done: OpencartSF_HomePageSteps.GivenIAmOnTheHomepage() (1.8s)&#xD;
+When I click the featured product currency list&#xD;
+-&gt; done: OpencartSF_HomePageSteps.WhenIClickTheFeaturedProductCurrencyList() (0.1s)&#xD;
+And I select a currency EUR&#xD;
+-&gt; done: OpencartSF_HomePageSteps.WhenISelectACurrency("EUR") (1.2s)&#xD;
+Then the price of all featured products contains the currency symbol €&#xD;
+-&gt; done: OpencartSF_HomePageSteps.ThenThePriceOfAllFeaturedProductsContainsTheCurrencySymbol("€") (0.1s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f01cdc16-e267-4dbb-8441-bda051e7fe25" testId="31d7262f-2f24-0bcb-df4e-1180e271bfb1" testName="SelectingAnOptionFromTheAccountDropDownMeni(&quot;Register&quot;,&quot;https://demo.opencart.com/index.php?route=account/register&quot;,null)" computerName="DESKTOP-95M4F0P" duration="00:00:08.5779570" startTime="2021-02-14T19:47:57.0000000+00:00" endTime="2021-02-14T19:48:05.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f01cdc16-e267-4dbb-8441-bda051e7fe25">
+      <Output>
+        <StdOut>Given I am on the homepage&#xD;
+-&gt; done: OpencartSF_HomePageSteps.GivenIAmOnTheHomepage() (2.1s)&#xD;
+When I click the my account drop down menu&#xD;
+-&gt; done: OpencartSF_HomePageSteps.WhenIClickTheMyAccountDropDownMenu() (0.1s)&#xD;
+And I select an option Register&#xD;
+-&gt; done: OpencartSF_HomePageSteps.WhenISelectAnOption("Register") (0.8s)&#xD;
+Then I am redirected to the URL https://demo.opencart.com/index.php?route=account/register&#xD;
+-&gt; done: OpencartSF_HomePageSteps.ThenIAmRedirectedToTheURL("https://demo.open...") (0.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="eafa5851-30f8-4222-9e57-82c93352a236" testId="5b64349d-e5a9-9c44-45bf-d2308709b850" testName="NavigatingToDifferentProductCategoryPages(&quot;Desktops&quot;,null)" computerName="DESKTOP-95M4F0P" duration="00:00:10.5689930" startTime="2021-02-14T19:47:28.0000000+00:00" endTime="2021-02-14T19:47:38.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eafa5851-30f8-4222-9e57-82c93352a236">
+      <Output>
+        <StdOut>Given I am on the homepage&#xD;
+-&gt; done: OpencartSF_HomePageSteps.GivenIAmOnTheHomepage() (2.5s)&#xD;
+When I hover over the product category Desktops&#xD;
+-&gt; done: OpencartSF_HomePageSteps.WhenIHoverOverTheProductCategory("Desktops") (1.0s)&#xD;
+And I click to see All Desktops&#xD;
+-&gt; done: OpencartSF_HomePageSteps.WhenIClickToSeeAll("Desktops") (0.9s)&#xD;
+Then I am redirected to a page which only shows products from Desktops&#xD;
+-&gt; done: OpencartSF_HomePageSteps.ThenIAmRedirectedToAPageWhichOnlyShowsProductsFrom("Desktops") (0.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e9c086a9-574c-4d1c-a74e-2cdf563539b0" testId="98b9fd55-05c1-6bf9-0369-ef450a6a7ae9" testName="FilteringProductsBySearchBoxQuery(&quot;a&quot;,null)" computerName="DESKTOP-95M4F0P" duration="00:00:13.8639150" startTime="2021-02-14T19:47:14.0000000+00:00" endTime="2021-02-14T19:47:28.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e9c086a9-574c-4d1c-a74e-2cdf563539b0">
+      <Output>
+        <StdOut>Given I am on the homepage&#xD;
+-&gt; done: OpencartSF_HomePageSteps.GivenIAmOnTheHomepage() (1.8s)&#xD;
+When I enter a query a into the search box&#xD;
+-&gt; done: OpencartSF_HomePageSteps.WhenIEnterAQueryIntoTheSearchBox("a") (0.1s)&#xD;
+And I press the search button&#xD;
+-&gt; done: OpencartSF_HomePageSteps.WhenIPressTheSearchButton() (1.2s)&#xD;
+Then only products containing that query string are returned&#xD;
+-&gt; done: OpencartSF_HomePageSteps.ThenOnlyProductsContainingThatQueryStringAreReturned() (5.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c6545185-43dc-45d8-9d2d-7c40969b4bb4" testId="9711e8b8-4fef-16b8-fae1-001deb6b7c92" testName="FilteringProductsBySearchBoxQuery(&quot;mac&quot;,null)" computerName="DESKTOP-95M4F0P" duration="00:00:14.2407780" startTime="2021-02-14T19:46:46.0000000+00:00" endTime="2021-02-14T19:47:00.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c6545185-43dc-45d8-9d2d-7c40969b4bb4">
+      <Output>
+        <StdOut>Given I am on the homepage&#xD;
+-&gt; done: OpencartSF_HomePageSteps.GivenIAmOnTheHomepage() (2.3s)&#xD;
+When I enter a query mac into the search box&#xD;
+-&gt; done: OpencartSF_HomePageSteps.WhenIEnterAQueryIntoTheSearchBox("mac") (0.1s)&#xD;
+And I press the search button&#xD;
+-&gt; done: OpencartSF_HomePageSteps.WhenIPressTheSearchButton() (1.0s)&#xD;
+Then only products containing that query string are returned&#xD;
+-&gt; done: OpencartSF_HomePageSteps.ThenOnlyProductsContainingThatQueryStringAreReturned() (5.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="79ee386a-c355-4a39-a63f-80655dbc6ef2" testId="652fd0d1-962c-a8bc-a29b-a83b3eac11d0" testName="ChangingTheCurrencyOfFeaturedProducts(&quot;GBP&quot;,&quot;£&quot;,null)" computerName="DESKTOP-95M4F0P" duration="00:00:09.1469830" startTime="2021-02-14T19:46:28.0000000+00:00" endTime="2021-02-14T19:46:37.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="79ee386a-c355-4a39-a63f-80655dbc6ef2">
+      <Output>
+        <StdOut>Given I am on the homepage&#xD;
+-&gt; done: OpencartSF_HomePageSteps.GivenIAmOnTheHomepage() (1.6s)&#xD;
+When I click the featured product currency list&#xD;
+-&gt; done: OpencartSF_HomePageSteps.WhenIClickTheFeaturedProductCurrencyList() (0.1s)&#xD;
+And I select a currency GBP&#xD;
+-&gt; done: OpencartSF_HomePageSteps.WhenISelectACurrency("GBP") (1.2s)&#xD;
+Then the price of all featured products contains the currency symbol £&#xD;
+-&gt; done: OpencartSF_HomePageSteps.ThenThePriceOfAllFeaturedProductsContainsTheCurrencySymbol("£") (0.1s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5d0084e1-784e-445e-aed1-145455643fce" testId="11d57268-9ce9-db9b-fae3-bf4c3f028c8c" testName="ChangingTheCurrencyOfFeaturedProducts(&quot;USD&quot;,&quot;$&quot;,null)" computerName="DESKTOP-95M4F0P" duration="00:00:08.7573740" startTime="2021-02-14T19:46:37.0000000+00:00" endTime="2021-02-14T19:46:46.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d0084e1-784e-445e-aed1-145455643fce">
+      <Output>
+        <StdOut>Given I am on the homepage&#xD;
+-&gt; done: OpencartSF_HomePageSteps.GivenIAmOnTheHomepage() (1.8s)&#xD;
+When I click the featured product currency list&#xD;
+-&gt; done: OpencartSF_HomePageSteps.WhenIClickTheFeaturedProductCurrencyList() (0.1s)&#xD;
+And I select a currency USD&#xD;
+-&gt; done: OpencartSF_HomePageSteps.WhenISelectACurrency("USD") (1.1s)&#xD;
+Then the price of all featured products contains the currency symbol $&#xD;
+-&gt; done: OpencartSF_HomePageSteps.ThenThePriceOfAllFeaturedProductsContainsTheCurrencySymbol("$") (0.1s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fcdf272e-0753-4518-8ced-5ca9621d1f43" testId="0b56e6c5-5a4c-f030-b37f-8ea4c18e4498" testName="NavigatingToDifferentProductCategoryPages(&quot;Components&quot;,null)" computerName="DESKTOP-95M4F0P" duration="00:00:09.5209260" startTime="2021-02-14T19:47:47.0000000+00:00" endTime="2021-02-14T19:47:57.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fcdf272e-0753-4518-8ced-5ca9621d1f43">
+      <Output>
+        <StdOut>Given I am on the homepage&#xD;
+-&gt; done: OpencartSF_HomePageSteps.GivenIAmOnTheHomepage() (2.0s)&#xD;
+When I hover over the product category Components&#xD;
+-&gt; done: OpencartSF_HomePageSteps.WhenIHoverOverTheProductCategory("Components") (1.1s)&#xD;
+And I click to see All Components&#xD;
+-&gt; done: OpencartSF_HomePageSteps.WhenIClickToSeeAll("Components") (0.9s)&#xD;
+Then I am redirected to a page which only shows products from Components&#xD;
+-&gt; done: OpencartSF_HomePageSteps.ThenIAmRedirectedToAPageWhichOnlyShowsProductsFrom("Components") (0.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3128f5f1-1b04-46c1-9937-d0531583a897" testId="2d230680-3297-c5fe-ca11-a438ba6dbbb3" testName="NavigatingToDifferentProductCategoryPages(&quot;Laptops &amp; Notebooks&quot;,null)" computerName="DESKTOP-95M4F0P" duration="00:00:09.0913299" startTime="2021-02-14T19:47:38.0000000+00:00" endTime="2021-02-14T19:47:47.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3128f5f1-1b04-46c1-9937-d0531583a897">
+      <Output>
+        <StdOut>Given I am on the homepage&#xD;
+-&gt; done: OpencartSF_HomePageSteps.GivenIAmOnTheHomepage() (1.8s)&#xD;
+When I hover over the product category Laptops &amp; Notebooks&#xD;
+-&gt; done: OpencartSF_HomePageSteps.WhenIHoverOverTheProductCategory("Laptops &amp; Notebooks") (0.9s)&#xD;
+And I click to see All Laptops &amp; Notebooks&#xD;
+-&gt; done: OpencartSF_HomePageSteps.WhenIClickToSeeAll("Laptops &amp; Notebooks") (0.8s)&#xD;
+Then I am redirected to a page which only shows products from Laptops &amp; Notebooks&#xD;
+-&gt; done: OpencartSF_HomePageSteps.ThenIAmRedirectedToAPageWhichOnlyShowsProductsFrom("Laptops &amp; Notebooks") (0.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b43e73cc-0bb6-4bf8-801d-986e6f1552e6" testId="00a2a141-e746-e619-a52d-9ea64c60b2e4" testName="FilteringProductsBySearchBoxQuery(&quot;apple&quot;,null)" computerName="DESKTOP-95M4F0P" duration="00:00:13.5799070" startTime="2021-02-14T19:47:00.0000000+00:00" endTime="2021-02-14T19:47:14.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b43e73cc-0bb6-4bf8-801d-986e6f1552e6">
+      <Output>
+        <StdOut>Given I am on the homepage&#xD;
+-&gt; done: OpencartSF_HomePageSteps.GivenIAmOnTheHomepage() (1.9s)&#xD;
+When I enter a query apple into the search box&#xD;
+-&gt; done: OpencartSF_HomePageSteps.WhenIEnterAQueryIntoTheSearchBox("apple") (0.1s)&#xD;
+And I press the search button&#xD;
+-&gt; done: OpencartSF_HomePageSteps.WhenIPressTheSearchButton() (0.7s)&#xD;
+Then only products containing that query string are returned&#xD;
+-&gt; done: OpencartSF_HomePageSteps.ThenOnlyProductsContainingThatQueryStringAreReturned() (5.1s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="506530e0-68f5-41de-bdc4-61527db7aa73" testId="65d52ce1-ef8d-668f-6278-862a84b28553" testName="SelectingAnOptionFromTheAccountDropDownMeni(&quot;Login&quot;,&quot;https://demo.opencart.com/index.php?route=account/login&quot;,null)" computerName="DESKTOP-95M4F0P" duration="00:00:08.2592030" startTime="2021-02-14T19:48:05.0000000+00:00" endTime="2021-02-14T19:48:14.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="506530e0-68f5-41de-bdc4-61527db7aa73">
+      <Output>
+        <StdOut>Given I am on the homepage&#xD;
+-&gt; done: OpencartSF_HomePageSteps.GivenIAmOnTheHomepage() (1.9s)&#xD;
+When I click the my account drop down menu&#xD;
+-&gt; done: OpencartSF_HomePageSteps.WhenIClickTheMyAccountDropDownMenu() (0.1s)&#xD;
+And I select an option Login&#xD;
+-&gt; done: OpencartSF_HomePageSteps.WhenISelectAnOption("Login") (0.7s)&#xD;
+Then I am redirected to the URL https://demo.opencart.com/index.php?route=account/login&#xD;
+-&gt; done: OpencartSF_HomePageSteps.ThenIAmRedirectedToTheURL("https://demo.open...") (0.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="ChangingTheCurrencyOfFeaturedProducts(&quot;USD&quot;,&quot;$&quot;,null)" storage="c:\users\olawr\onedrive\engineering73\advancedtesting\opencart_webtesting\opencart_webtesting\opencartstorefront_webtesting\bin\debug\net5.0\opencartstorefront_webtesting.dll" id="11d57268-9ce9-db9b-fae3-bf4c3f028c8c">
+      <Execution id="5d0084e1-784e-445e-aed1-145455643fce" />
+      <TestMethod codeBase="C:\Users\olawr\OneDrive\Engineering73\AdvancedTesting\Opencart_WebTesting\Opencart_WebTesting\OpencartStoreFront_WebTesting\bin\Debug\net5.0\OpencartStoreFront_WebTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpencartStoreFront_WebTesting.Library.SpecFlow.Features.OpencartSF_HomePageFeature" name="ChangingTheCurrencyOfFeaturedProducts(&quot;USD&quot;,&quot;$&quot;,null)" />
+    </UnitTest>
+    <UnitTest name="SelectingAnOptionFromTheAccountDropDownMeni(&quot;Login&quot;,&quot;https://demo.opencart.com/index.php?route=account/login&quot;,null)" storage="c:\users\olawr\onedrive\engineering73\advancedtesting\opencart_webtesting\opencart_webtesting\opencartstorefront_webtesting\bin\debug\net5.0\opencartstorefront_webtesting.dll" id="65d52ce1-ef8d-668f-6278-862a84b28553">
+      <Execution id="506530e0-68f5-41de-bdc4-61527db7aa73" />
+      <TestMethod codeBase="C:\Users\olawr\OneDrive\Engineering73\AdvancedTesting\Opencart_WebTesting\Opencart_WebTesting\OpencartStoreFront_WebTesting\bin\Debug\net5.0\OpencartStoreFront_WebTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpencartStoreFront_WebTesting.Library.SpecFlow.Features.OpencartSF_HomePageFeature" name="SelectingAnOptionFromTheAccountDropDownMeni(&quot;Login&quot;,&quot;https://demo.opencart.com/index.php?route=account/login&quot;,null)" />
+    </UnitTest>
+    <UnitTest name="NavigatingToDifferentProductCategoryPages(&quot;Desktops&quot;,null)" storage="c:\users\olawr\onedrive\engineering73\advancedtesting\opencart_webtesting\opencart_webtesting\opencartstorefront_webtesting\bin\debug\net5.0\opencartstorefront_webtesting.dll" id="5b64349d-e5a9-9c44-45bf-d2308709b850">
+      <Execution id="eafa5851-30f8-4222-9e57-82c93352a236" />
+      <TestMethod codeBase="C:\Users\olawr\OneDrive\Engineering73\AdvancedTesting\Opencart_WebTesting\Opencart_WebTesting\OpencartStoreFront_WebTesting\bin\Debug\net5.0\OpencartStoreFront_WebTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpencartStoreFront_WebTesting.Library.SpecFlow.Features.OpencartSF_HomePageFeature" name="NavigatingToDifferentProductCategoryPages(&quot;Desktops&quot;,null)" />
+    </UnitTest>
+    <UnitTest name="NavigatingToDifferentProductCategoryPages(&quot;Laptops &amp; Notebooks&quot;,null)" storage="c:\users\olawr\onedrive\engineering73\advancedtesting\opencart_webtesting\opencart_webtesting\opencartstorefront_webtesting\bin\debug\net5.0\opencartstorefront_webtesting.dll" id="2d230680-3297-c5fe-ca11-a438ba6dbbb3">
+      <Execution id="3128f5f1-1b04-46c1-9937-d0531583a897" />
+      <TestMethod codeBase="C:\Users\olawr\OneDrive\Engineering73\AdvancedTesting\Opencart_WebTesting\Opencart_WebTesting\OpencartStoreFront_WebTesting\bin\Debug\net5.0\OpencartStoreFront_WebTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpencartStoreFront_WebTesting.Library.SpecFlow.Features.OpencartSF_HomePageFeature" name="NavigatingToDifferentProductCategoryPages(&quot;Laptops &amp; Notebooks&quot;,null)" />
+    </UnitTest>
+    <UnitTest name="FilteringProductsBySearchBoxQuery(&quot;a&quot;,null)" storage="c:\users\olawr\onedrive\engineering73\advancedtesting\opencart_webtesting\opencart_webtesting\opencartstorefront_webtesting\bin\debug\net5.0\opencartstorefront_webtesting.dll" id="98b9fd55-05c1-6bf9-0369-ef450a6a7ae9">
+      <Execution id="e9c086a9-574c-4d1c-a74e-2cdf563539b0" />
+      <TestMethod codeBase="C:\Users\olawr\OneDrive\Engineering73\AdvancedTesting\Opencart_WebTesting\Opencart_WebTesting\OpencartStoreFront_WebTesting\bin\Debug\net5.0\OpencartStoreFront_WebTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpencartStoreFront_WebTesting.Library.SpecFlow.Features.OpencartSF_HomePageFeature" name="FilteringProductsBySearchBoxQuery(&quot;a&quot;,null)" />
+    </UnitTest>
+    <UnitTest name="ChangingTheCurrencyOfFeaturedProducts(&quot;GBP&quot;,&quot;£&quot;,null)" storage="c:\users\olawr\onedrive\engineering73\advancedtesting\opencart_webtesting\opencart_webtesting\opencartstorefront_webtesting\bin\debug\net5.0\opencartstorefront_webtesting.dll" id="652fd0d1-962c-a8bc-a29b-a83b3eac11d0">
+      <Execution id="79ee386a-c355-4a39-a63f-80655dbc6ef2" />
+      <TestMethod codeBase="C:\Users\olawr\OneDrive\Engineering73\AdvancedTesting\Opencart_WebTesting\Opencart_WebTesting\OpencartStoreFront_WebTesting\bin\Debug\net5.0\OpencartStoreFront_WebTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpencartStoreFront_WebTesting.Library.SpecFlow.Features.OpencartSF_HomePageFeature" name="ChangingTheCurrencyOfFeaturedProducts(&quot;GBP&quot;,&quot;£&quot;,null)" />
+    </UnitTest>
+    <UnitTest name="NavigatingToDifferentProductCategoryPages(&quot;Components&quot;,null)" storage="c:\users\olawr\onedrive\engineering73\advancedtesting\opencart_webtesting\opencart_webtesting\opencartstorefront_webtesting\bin\debug\net5.0\opencartstorefront_webtesting.dll" id="0b56e6c5-5a4c-f030-b37f-8ea4c18e4498">
+      <Execution id="fcdf272e-0753-4518-8ced-5ca9621d1f43" />
+      <TestMethod codeBase="C:\Users\olawr\OneDrive\Engineering73\AdvancedTesting\Opencart_WebTesting\Opencart_WebTesting\OpencartStoreFront_WebTesting\bin\Debug\net5.0\OpencartStoreFront_WebTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpencartStoreFront_WebTesting.Library.SpecFlow.Features.OpencartSF_HomePageFeature" name="NavigatingToDifferentProductCategoryPages(&quot;Components&quot;,null)" />
+    </UnitTest>
+    <UnitTest name="SelectingAnOptionFromTheAccountDropDownMeni(&quot;Register&quot;,&quot;https://demo.opencart.com/index.php?route=account/register&quot;,null)" storage="c:\users\olawr\onedrive\engineering73\advancedtesting\opencart_webtesting\opencart_webtesting\opencartstorefront_webtesting\bin\debug\net5.0\opencartstorefront_webtesting.dll" id="31d7262f-2f24-0bcb-df4e-1180e271bfb1">
+      <Execution id="f01cdc16-e267-4dbb-8441-bda051e7fe25" />
+      <TestMethod codeBase="C:\Users\olawr\OneDrive\Engineering73\AdvancedTesting\Opencart_WebTesting\Opencart_WebTesting\OpencartStoreFront_WebTesting\bin\Debug\net5.0\OpencartStoreFront_WebTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpencartStoreFront_WebTesting.Library.SpecFlow.Features.OpencartSF_HomePageFeature" name="SelectingAnOptionFromTheAccountDropDownMeni(&quot;Register&quot;,&quot;https://demo.opencart.com/index.php?route=account/register&quot;,null)" />
+    </UnitTest>
+    <UnitTest name="FilteringProductsBySearchBoxQuery(&quot;mac&quot;,null)" storage="c:\users\olawr\onedrive\engineering73\advancedtesting\opencart_webtesting\opencart_webtesting\opencartstorefront_webtesting\bin\debug\net5.0\opencartstorefront_webtesting.dll" id="9711e8b8-4fef-16b8-fae1-001deb6b7c92">
+      <Execution id="c6545185-43dc-45d8-9d2d-7c40969b4bb4" />
+      <TestMethod codeBase="C:\Users\olawr\OneDrive\Engineering73\AdvancedTesting\Opencart_WebTesting\Opencart_WebTesting\OpencartStoreFront_WebTesting\bin\Debug\net5.0\OpencartStoreFront_WebTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpencartStoreFront_WebTesting.Library.SpecFlow.Features.OpencartSF_HomePageFeature" name="FilteringProductsBySearchBoxQuery(&quot;mac&quot;,null)" />
+    </UnitTest>
+    <UnitTest name="FilteringProductsBySearchBoxQuery(&quot;apple&quot;,null)" storage="c:\users\olawr\onedrive\engineering73\advancedtesting\opencart_webtesting\opencart_webtesting\opencartstorefront_webtesting\bin\debug\net5.0\opencartstorefront_webtesting.dll" id="00a2a141-e746-e619-a52d-9ea64c60b2e4">
+      <Execution id="b43e73cc-0bb6-4bf8-801d-986e6f1552e6" />
+      <TestMethod codeBase="C:\Users\olawr\OneDrive\Engineering73\AdvancedTesting\Opencart_WebTesting\Opencart_WebTesting\OpencartStoreFront_WebTesting\bin\Debug\net5.0\OpencartStoreFront_WebTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpencartStoreFront_WebTesting.Library.SpecFlow.Features.OpencartSF_HomePageFeature" name="FilteringProductsBySearchBoxQuery(&quot;apple&quot;,null)" />
+    </UnitTest>
+    <UnitTest name="ChangingTheCurrencyOfFeaturedProducts(&quot;EUR&quot;,&quot;€&quot;,null)" storage="c:\users\olawr\onedrive\engineering73\advancedtesting\opencart_webtesting\opencart_webtesting\opencartstorefront_webtesting\bin\debug\net5.0\opencartstorefront_webtesting.dll" id="902f09c8-3097-bf10-6efb-abe24fa8fa1f">
+      <Execution id="c7af5f07-b6a7-4561-bedc-218ac1fa2cc7" />
+      <TestMethod codeBase="C:\Users\olawr\OneDrive\Engineering73\AdvancedTesting\Opencart_WebTesting\Opencart_WebTesting\OpencartStoreFront_WebTesting\bin\Debug\net5.0\OpencartStoreFront_WebTesting.dll" adapterTypeName="executor://nunit3testexecutor/" className="OpencartStoreFront_WebTesting.Library.SpecFlow.Features.OpencartSF_HomePageFeature" name="ChangingTheCurrencyOfFeaturedProducts(&quot;EUR&quot;,&quot;€&quot;,null)" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="902f09c8-3097-bf10-6efb-abe24fa8fa1f" executionId="c7af5f07-b6a7-4561-bedc-218ac1fa2cc7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="31d7262f-2f24-0bcb-df4e-1180e271bfb1" executionId="f01cdc16-e267-4dbb-8441-bda051e7fe25" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5b64349d-e5a9-9c44-45bf-d2308709b850" executionId="eafa5851-30f8-4222-9e57-82c93352a236" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="98b9fd55-05c1-6bf9-0369-ef450a6a7ae9" executionId="e9c086a9-574c-4d1c-a74e-2cdf563539b0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9711e8b8-4fef-16b8-fae1-001deb6b7c92" executionId="c6545185-43dc-45d8-9d2d-7c40969b4bb4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="652fd0d1-962c-a8bc-a29b-a83b3eac11d0" executionId="79ee386a-c355-4a39-a63f-80655dbc6ef2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="11d57268-9ce9-db9b-fae3-bf4c3f028c8c" executionId="5d0084e1-784e-445e-aed1-145455643fce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0b56e6c5-5a4c-f030-b37f-8ea4c18e4498" executionId="fcdf272e-0753-4518-8ced-5ca9621d1f43" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2d230680-3297-c5fe-ca11-a438ba6dbbb3" executionId="3128f5f1-1b04-46c1-9937-d0531583a897" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="00a2a141-e746-e619-a52d-9ea64c60b2e4" executionId="b43e73cc-0bb6-4bf8-801d-986e6f1552e6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="65d52ce1-ef8d-668f-6278-862a84b28553" executionId="506530e0-68f5-41de-bdc4-61527db7aa73" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="11" executed="11" passed="11" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 3.16.1.0: Test execution started&#xD;
+Running all tests in C:\Users\olawr\OneDrive\Engineering73\AdvancedTesting\Opencart_WebTesting\Opencart_WebTesting\OpencartStoreFront_WebTesting\bin\Debug\net5.0\OpencartStoreFront_WebTesting.dll&#xD;
+   NUnit3TestExecutor converted 11 of 11 NUnit test cases&#xD;
+NUnit Adapter 3.16.1.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

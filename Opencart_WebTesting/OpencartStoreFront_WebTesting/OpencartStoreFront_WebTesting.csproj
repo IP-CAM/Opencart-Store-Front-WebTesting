@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
 
     <IsPackable>false</IsPackable>
   </PropertyGroup>
@@ -10,13 +10,23 @@
     <PackageReference Include="NUnit" Version="3.12.0" />
     <PackageReference Include="NUnit3TestAdapter" Version="3.16.1" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    <PackageReference Include="Pickles" Version="2.21.0" />
+    <PackageReference Include="Pickles.CommandLine" Version="2.21.0" />
     <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
     <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="88.0.4324.9600" />
     <PackageReference Include="SpecFlow" Version="3.6.23" />
     <PackageReference Include="SpecFlow.NUnit" Version="3.6.23" />
   </ItemGroup>
 
+  <Target Name="document">
+    <PropertyGroup>
+      <PicklesExe>$(NuGetPackageRoot)pickles.commandline\2.21.0\tools\pickles.exe</PicklesExe>
+    </PropertyGroup>
+    <Exec Command="$(PicklesExe) -sn=Demo -sv=v1.0 --trfmt=vstest -df=dhtml -f=./Library/SpecFlow/Features  -o=./doc --lr=TestResults\SpecFlowDemo.xml" />
+  </Target>
+
   <ItemGroup>
+    <Folder Include="Docs\Word\" />
     <Folder Include="Library\Tests\" />
   </ItemGroup>
 

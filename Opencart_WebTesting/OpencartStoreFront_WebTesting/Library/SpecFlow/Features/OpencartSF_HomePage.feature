@@ -1,11 +1,9 @@
 ﻿Feature: OpencartSF_HomePage
 	The landing page of the website with access to logging in and product search
 
-Background: The user is on the home page
-	Given I am on the homepage
-
 @CurrencyOfFeaturedProducts
-Scenario: Changing the currency of featured products
+Scenario Outline: Changing the currency of featured products
+	Given I am on the homepage
 	When I click the featured product currency list
 	And I select a currency <currency>
 	Then the price of all featured products contains the currency symbol <symbol>
@@ -16,7 +14,8 @@ Scenario: Changing the currency of featured products
 	| USD      | $      |
 
 @AccountDropDown
-Scenario: Selecting an option from the account drop down meni
+Scenario Outline: Selecting an option from the account drop down menu
+	Given I am on the homepage
 	When I click the my account drop down menu
 	And I select an option <option>
 	Then I am redirected to the URL <url>
@@ -33,7 +32,8 @@ Scenario: Selecting an option from the account drop down meni
 
 
 @SearchBoxFunctionality
-Scenario: Filtering products by search box query
+Scenario Outline: Filtering products by search box query
+	Given I am on the homepage
 	When I enter a query <query> into the search box
 	And I press the search button
 	Then only products containing that query string are returned
@@ -45,7 +45,8 @@ Scenario: Filtering products by search box query
 
 
 @NavigatingToRelevantProductPage
-Scenario: Navigating to different product category pages
+Scenario Outline: Navigating to different product category pages
+	Given I am on the homepage
 	When I hover over the product category <category>
 	And I click to see All <category>
 	Then I am redirected to a page which only shows products from <category>

@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    "net5.0": {
       "BoDi/1.4.1": {
         "type": "package",
         "compile": {
@@ -490,6 +490,12 @@
           "build/netcoreapp2.1/NUnit3TestAdapter.props": {}
         }
       },
+      "Pickles/2.21.0": {
+        "type": "package"
+      },
+      "Pickles.CommandLine/2.21.0": {
+        "type": "package"
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
         "type": "package",
         "runtimeTargets": {
@@ -695,10 +701,10 @@
           "SpecFlow.Tools.MsBuild.Generation": "[3.6.23]"
         },
         "compile": {
-          "lib/netstandard2.0/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll": {}
+          "lib/net5.0/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll": {}
+          "lib/net5.0/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll": {}
         },
         "build": {
           "build/SpecFlow.NUnit.props": {},
@@ -2643,6 +2649,77 @@
         "build/netcoreapp2.1/nunit.engine.dll",
         "nunit3testadapter.3.16.1.nupkg.sha512",
         "nunit3testadapter.nuspec"
+      ]
+    },
+    "Pickles/2.21.0": {
+      "sha512": "MZ4RhQscS0M6Slbe2GVEe6B9eVcDoX4bLc24a8cfJHwNWMZw0iDQsGiKZSyuCa6shvzwsoFP/ZlI1yvot+J5ug==",
+      "type": "package",
+      "path": "pickles/2.21.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "pickles.2.21.0.nupkg.sha512",
+        "pickles.nuspec",
+        "tools/Autofac.dll",
+        "tools/ClosedXML.dll",
+        "tools/DocumentFormat.OpenXml.dll",
+        "tools/FeatureSwitcher.dll",
+        "tools/Gherkin.dll",
+        "tools/Jint.dll",
+        "tools/MarkdownDeep.dll",
+        "tools/NLog.dll",
+        "tools/Newtonsoft.Json.dll",
+        "tools/PicklesDoc.Pickles.DocumentationBuilders.Cucumber.dll",
+        "tools/PicklesDoc.Pickles.DocumentationBuilders.Dhtml.dll",
+        "tools/PicklesDoc.Pickles.DocumentationBuilders.Excel.dll",
+        "tools/PicklesDoc.Pickles.DocumentationBuilders.Html.dll",
+        "tools/PicklesDoc.Pickles.DocumentationBuilders.Json.dll",
+        "tools/PicklesDoc.Pickles.DocumentationBuilders.Markdown.dll",
+        "tools/PicklesDoc.Pickles.DocumentationBuilders.Word.dll",
+        "tools/PicklesDoc.Pickles.Library.dll",
+        "tools/PicklesDoc.Pickles.ObjectModel.dll",
+        "tools/PicklesDoc.Pickles.PowerShell.dll",
+        "tools/PicklesDoc.Pickles.TestFrameworks.dll",
+        "tools/Strike.Jint.dll",
+        "tools/System.IO.Abstractions.dll",
+        "tools/init.ps1"
+      ]
+    },
+    "Pickles.CommandLine/2.21.0": {
+      "sha512": "eB3t9mCqQ+ir4T/EcKmhNgyDiJLdQ/w0YnHtezpY2hEdlatrabI1shoy/Lb90+3C7QJW0pyCVe3ad6mhUM2haA==",
+      "type": "package",
+      "path": "pickles.commandline/2.21.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "pickles.commandline.2.21.0.nupkg.sha512",
+        "pickles.commandline.nuspec",
+        "tools/Autofac.dll",
+        "tools/ClosedXML.dll",
+        "tools/DocumentFormat.OpenXml.dll",
+        "tools/FeatureSwitcher.dll",
+        "tools/Gherkin.dll",
+        "tools/Jint.dll",
+        "tools/MarkdownDeep.dll",
+        "tools/NDesk.Options.dll",
+        "tools/NLog.config",
+        "tools/NLog.dll",
+        "tools/Newtonsoft.Json.dll",
+        "tools/PicklesDoc.Pickles.DocumentationBuilders.Cucumber.dll",
+        "tools/PicklesDoc.Pickles.DocumentationBuilders.Dhtml.dll",
+        "tools/PicklesDoc.Pickles.DocumentationBuilders.Excel.dll",
+        "tools/PicklesDoc.Pickles.DocumentationBuilders.Html.dll",
+        "tools/PicklesDoc.Pickles.DocumentationBuilders.Json.dll",
+        "tools/PicklesDoc.Pickles.DocumentationBuilders.Markdown.dll",
+        "tools/PicklesDoc.Pickles.DocumentationBuilders.Word.dll",
+        "tools/PicklesDoc.Pickles.Library.dll",
+        "tools/PicklesDoc.Pickles.ObjectModel.dll",
+        "tools/PicklesDoc.Pickles.TestFrameworks.dll",
+        "tools/Strike.Jint.dll",
+        "tools/System.IO.Abstractions.dll",
+        "tools/pickles.exe"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
@@ -6668,10 +6745,12 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
+    "net5.0": [
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "NUnit >= 3.12.0",
       "NUnit3TestAdapter >= 3.16.1",
+      "Pickles >= 2.21.0",
+      "Pickles.CommandLine >= 2.21.0",
       "Selenium.WebDriver >= 3.141.0",
       "Selenium.WebDriver.ChromeDriver >= 88.0.4324.9600",
       "SpecFlow >= 3.6.23",
@@ -6695,15 +6774,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {}
         }
       },
@@ -6714,8 +6793,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
+      "net5.0": {
+        "targetAlias": "net5.0",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -6728,6 +6807,14 @@
           "NUnit3TestAdapter": {
             "target": "Package",
             "version": "[3.16.1, )"
+          },
+          "Pickles": {
+            "target": "Package",
+            "version": "[2.21.0, )"
+          },
+          "Pickles.CommandLine": {
+            "target": "Package",
+            "version": "[2.21.0, )"
           },
           "Selenium.WebDriver": {
             "target": "Package",

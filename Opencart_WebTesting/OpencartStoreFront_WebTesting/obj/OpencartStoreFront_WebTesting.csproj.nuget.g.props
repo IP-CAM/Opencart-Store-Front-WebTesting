@@ -27,5 +27,7 @@
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgBoDi Condition=" '$(PkgBoDi)' == '' ">C:\Users\olawr\.nuget\packages\bodi\1.4.1</PkgBoDi>
     <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\olawr\.nuget\packages\newtonsoft.json\10.0.3</PkgNewtonsoft_Json>
+    <PkgPickles_CommandLine Condition=" '$(PkgPickles_CommandLine)' == '' ">C:\Users\olawr\.nuget\packages\pickles.commandline\2.21.0</PkgPickles_CommandLine>
+    <PkgPickles Condition=" '$(PkgPickles)' == '' ">C:\Users\olawr\.nuget\packages\pickles\2.21.0</PkgPickles>
   </PropertyGroup>
 </Project>
